@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    background-color: rgba(0, 131, 131, 0.822);
+    color: aliceblue;
+    display: flex;
+    vertical-align: middle;
+    height: 80px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+}
+.nav-item{
+    padding: 10px 15px;
+    margin: 10px;
+    transition: border-bottom ease-in-out .3s;
+}
+.nav-item:hover{
+    border-bottom: 3px dotted rgba(0, 19, 12, 0.842);
+    background-color: transparent;
+    /* background-color: rgba(0, 19, 12, 0.842); */
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.541);
+}
+.nav-item>a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+.nav-item:active{
+    text-decoration: none;
+    /* background-color: rgba(0, 19, 12, 0.842);; */
+    color: aliceblue;
+}
+.nav-brand-logo{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    /* padding-top: 1.5%; */
+}
+.nav-brand-logo>img{
+    width: 100px;
+    margin: auto;
+
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+}
+.brand-footer-header{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+}
+.brand-footer-header>img{
+    width: 100px;
+    margin: auto;
+}
+.footer-brand-content{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.footer-brand-end{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.active{
+    border-bottom: 3px dotted beige;
+    /* background-color: rgba(0, 19, 12, 0.842); */
+}
+.container{
+    margin: auto;
+    padding: 3%;
+}

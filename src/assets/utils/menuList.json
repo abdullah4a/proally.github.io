@@ -1,0 +1,23 @@
+{
+    "menuItems":[
+        {
+            "name":"Home",
+            "description":"",
+            "path":"#"
+        },
+        {
+            "name":"Services",
+            "description":"",
+            "path":"#"
+        },        {
+            "name":"Projects",
+            "description":"",
+            "path":"#"
+        },
+        {
+            "name":"Contact Us",
+            "description":"",
+            "path":"#"
+        }
+    ]
+}
